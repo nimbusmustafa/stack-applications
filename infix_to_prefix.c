@@ -46,7 +46,7 @@ int main(){
     
     int prec1=0,prec2=0;
 
-    i =     i = strlen(expr)-1;
+ i = strlen(expr)-1;
 
     while(expr[i]!='\0'){
         if((expr[i]>='a'&& expr[i]<='z') || (expr[i]>='A'&& expr[i]<='Z')){
