@@ -45,9 +45,9 @@ int main(){
             temp = operate(op1,op2,expr[i]);
             push(&s,temp);
         }
-        else if(expr[i]==' ' || expr[i]== '\t'){
+        /*else if(expr[i]==' ' || expr[i]== '\t'){
             continue;
-        }
+        }*/
         else {
             temp = expr[i] - 48;
             push(&s,temp);
